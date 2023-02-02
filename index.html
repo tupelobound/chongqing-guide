@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Chongqing</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css"
+        integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<!-- Bootstrap scrollspy for nav pills highlighting active item behaviour-->
+<body data-spy="scroll" data-target="#navbar" data-offset="50">
+    <!-- Bootstrap navigation bar fixed to top with grey background -->
+    <nav id="navbar" class="navbar navbar-light bg-faded navbar-fixed-top">
+        <!-- Container to centre the nav items and align with main page content -->
+        <div class="container">
+            <!-- Button for opening and closing the collapsible navbar at small screen widths -->
+            <button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse"
+                data-target="#navbar-header" aria-controls="navbar-header" aria-expanded="false"
+                aria-label="Toggle navigation"></button>
+            <!-- Collapsible navbar -->
+            <div class="collapse navbar-toggleable-xs" id="navbar-header">
+                <!-- Nav pills class gives active list item colored background -->
+                <ul class="nav nav-pills">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#spacer">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#intro">Introduction</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#facts">Facts</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#ttd">Things to do</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#cuisine">Cuisine</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#videos">Videos</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Responsive ontainer for main content-->
+    <div class="container">
+
+        <!-- Small container to hide behind the navbar and provide spacing and anchor point for the 'Home' and 'Back to top' buttons -->
+        <div id="spacer" style="color:white" aria-hidden="true">
+            <p>Hello World!</p>
+        </div>
+
+        <!-- Jumbotron with background picture to contain page heading -->
+        <div class="jumbotron">
+            <h1 class="display-4">Chongqing</h1>
+            <p class="lead">Booming megalopolis on the Yangtze</p>
+        </div>
+
+        <!-- Intro -->
+        <h3 id="intro" class="navLink">Introduction</h3>
+        <p>Chongqing <strong>(重庆)</strong> is a city in Southwest China that's situated on the confluence of the Jialing
+            and Yangtze rivers. It is one of four directly-controlled municipalities in China and has a total population
+            of around 30 million people.
+            The central city of Chongqing has around 8 million inhabitants. During WW2, Chongqing was the provisional
+            capital of the Republic of China.</p>
+
+        <hr>
+
+        <!-- Div to hold the photos -->
+        <div>
+            <img src="images/Chongqing_Night_Yuzhong.jpg" class="img-fluid" alt="Chongqing night cityscape">
+            <img src="images/SkylineOfChongqing.jpg" class="img-fluid mt-1" alt="Chongqing skyline daytime" width="1500px">
+            <img src="images/IMG_0634.jpg" class="img-fluid mt-1" alt="View from the CQ cable car">
+        </div>
+
+        <!-- Photo tagline with mt-1 class for top margin spacing -->
+        <p class="mt-1"><em>View of downtown Jiefangbei from Nanping cable car station</em></p>
+
+        <hr>
+
+        <h3 id="facts" class="navLink">Some facts about Chongqing</h3>
+
+        <!-- Div to hold responsive table -->
+        <div class="table-responsive">
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th>Municipality</th>
+                        <th>Urban</th>
+                        <th>Central city</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Area</strong></td>
+                        <td>82,403 km<sup>2</sup></td>
+                        <td>5,472.8 km<sup>2</sup></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Population</strong></td>
+                        <td>30,165,500</td>
+                        <td>18,384,100</td>
+                        <td>around 8,000,000</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <hr>
+
+        <!-- Things to do section, including an ordered list -->
+        <h3 id="ttd" class="navLink">Things to do in Chongqing</h3>
+
+        <ol>
+            <li>Try hotpot, the local speciality dish. If spicy food is your thing you <strong>need</strong> to try
+                this!</li>
+            <li>Take the cable car from Xiaoshizi, across the Yangtze river to Nanbin Road.</li>
+            <li>Visit the old town of Ciqikou, savour some classic Chongqing snacks and pick up some souvenirs.</li>
+            <li>Visit Hongyadong, have a drink and enjoy the view over the Jialing river, looking out over the new
+                Jiangbei CBD and the Grand Theatre.</li>
+            <li>Get a shopping fix in downtown Jiefangbei, home to some of the world's biggest (and most expensive!)
+                brands.</li>
+        </ol>
+
+        <!-- Cuisine section, including an unordered list -->
+        <h3 id="cuisine" class="navLink">Notable Chongqing Cuisine</h3>
+
+        <ul>
+            <li>As mentioned above huo guo (火锅), or hotpot, is the most famous local specialty.</li>
+            <li>Chuan chuan (串串) is similar to hotpot in that you cook your food in spicy oil at your table. The big
+                difference is that the food comes on wooden skewers that you help yourself to from the fridge.</li>
+            <li>Chongqing xiao mian (小面) is basically noodles in a spicy sauce and is an extremely popular staple food
+                with locals.</li>
+            <li>Kao yu (烤鱼) is barbecued fish, usually river carp, accompanied with... you guessed it, lots of chilli.
+                The locals love their spicy food!</li>
+            <li>Shao kao (烧烤) is the local word for barbecued street food. Choose from a huge selection of skewered meat
+                and vegetables and see it cooked before your eyes. The perfect late night snack to enjoy with friends
+                and a few beers.</li>
+        </ul>
+
+        <hr>
+
+        <!-- Videos section, including responsive embedded vids with extra margin spacing classes -->
+        <h3 id="videos" class="navLink">Take a look at this video about Chongqing</h3>
+
+        <div class="embed-responsive embed-responsive-16by9 mt-1 mb-1">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/sXQOBM37MH0"></iframe>
+        </div>
+
+        <h3>Here's a cool flyover video of some of Chongqing's sights</h3>
+
+        <div class="embed-responsive embed-responsive-16by9 mt-1 mb-1">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/2wYnb99vj70"></iframe>
+        </div>
+
+        <hr>
+
+        <h3>External links</h3>
+
+        <p><a href="https://en.wikipedia.org/wiki/Chongqing">Wikipedia</a></p>
+
+        <p><a href="https://www.lonelyplanet.com/china/chongqing">Lonely Planet</a></p>
+
+        <hr>
+
+        <p><a id="btt" href="#spacer">Back to top</a></p>
+
+    </div>
+
+    <!-- Bootstrap template scripts included to ensure scrolling and Bootstrap navbar button works -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"
+        integrity="sha384-3ceskX3iaEnIogmQchP8opvBy3Mi7Ce34nWjpBIwVTHfGYWQS9jwHDVRnpKKHJg7"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.3.7/js/tether.min.js"
+        integrity="sha384-XTs3FgkjiBgo8qjEjBk0tGmf3wPrWtA6coPfQDfFEY8AnYJwjalXCiosYRBIBZX8"
+        crossorigin="anonymous"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/js/bootstrap.min.js"
+        integrity="sha384-BLiI7JTZm+JWlgKa0M0kGRpJbF2J8q+qreVrKBC47e3K6BW78kGLrCkeRX6I9RoK"
+        crossorigin="anonymous"></script>
+
+    <script>
+
+        $("#navbar-header a").on('click', function (event) {
+
+            if (this.hash !== "") {
+
+                event.preventDefault();
+
+                var hash = this.hash;
+
+                $('html, body').animate({
+
+                    scrollTop: $(hash).offset().top
+
+                }, 1200, function () {
+
+                    window.location.hash = hash;
+
+                });
+
+            }
+
+        });
+
+        $("#btt").click(function () {
+
+            $("html, body").animate({
+
+                scrollTop: 0
+
+            }, "slow");
+
+            return false;
+
+        });
+
+    </script>
+
+</body>
+
+</html>
