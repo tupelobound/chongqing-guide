@@ -1,153 +1,152 @@
 body {
-    font-family: 'Oswald', sans-serif;
-    color: #b7170e;
+  font-family: 'Oswald', sans-serif;
+  color: #b7170e;
 }
 
 .nav-pills>li>a {
-    color: #df2118;
+  color: #df2118;
 }
 
 .nav-pills>li>a:hover {
-    color: #b7170e;
+  color: #b7170e;
 }
 
 .nav-pills>li>a.nav-link.active,
 .nav-pills>li>a.nav-link.active:hover,
 .nav-pills>li>a.nav-link.active:focus {
-    background-color: #df2118;
+  background-color: #df2118;
 }
 
 a:link,
 a:visited {
-    color: #df2118;
+  color: #df2118;
 }
 
 .jumbotron {
-    /*background-image: url(/chongqing-guide/images/hotpot-1.jpg);*/
-    background-image: url(../images/hotpot.jpg);
-    background-size: cover;
-    background-position: center center;
-    color: white;
-    margin-top: 60px;
+  background-image: url(../images/hotpot.jpg);
+  background-size: cover;
+  background-position: center center;
+  color: white;
+  margin-top: 60px;
 }
 
 .navbar {
-    z-index: 999999999;
+  z-index: 999999999;
 }
 
 @media screen and (min-width:300px) {
-    .jumbotron h1 {
-        position: relative;
-        bottom: 30px;
-    }
+  .jumbotron h1 {
+    position: relative;
+    bottom: 30px;
+  }
 
-    .jumbotron p {
-        position: relative;
-        bottom: 35px;
-    }
+  .jumbotron p {
+    position: relative;
+    bottom: 35px;
+  }
 
-    .jumbotron {
-        margin-top: 50px;
-    }
+  .jumbotron {
+    margin-top: 50px;
+  }
 }
 
 @media screen and (min-width:366px) {
-    .jumbotron h1 {
-        position: relative;
-        bottom: 30px;
-    }
+  .jumbotron h1 {
+    position: relative;
+    bottom: 30px;
+  }
 
-    .jumbotron p {
-        position: relative;
-        bottom: 35px;
-    }
+  .jumbotron p {
+    position: relative;
+    bottom: 35px;
+  }
 }
 
 @media screen and (max-width:318px) {
-    .navLink:before {
-        display: block;
-        content: "";
-        height: 185px;
-        margin: -185px 0 0;
-    }
+  .navLink:before {
+    display: block;
+    content: "";
+    height: 185px;
+    margin: -185px 0 0;
+  }
 }
 
 @media screen and (min-width:319px) {
-    .navLink:before {
-        display: block;
-        content: "";
-        height: 145px;
-        margin: -145px 0 0;
-    }
+  .navLink:before {
+    display: block;
+    content: "";
+    height: 145px;
+    margin: -145px 0 0;
+  }
 
-    .jumbotron {
-        margin-top: 50px;
-    }
+  .jumbotron {
+    margin-top: 50px;
+  }
 }
 
 @media screen and (min-width:556px) {
-    .navLink:before {
-        display: block;
-        content: "";
-        height: 110px;
-        margin: -110px 0 0;
-    }
+  .navLink:before {
+    display: block;
+    content: "";
+    height: 110px;
+    margin: -110px 0 0;
+  }
 }
 
 @media screen and (min-width:576px) {
-    .navLink:before {
-        display: block;
-        content: "";
-        height: 70px;
-        margin: -70px 0 0;
-    }
+  .navLink:before {
+    display: block;
+    content: "";
+    height: 70px;
+    margin: -70px 0 0;
+  }
 
-    .jumbotron {
-        margin-top: 50px;
-    }
+  .jumbotron {
+    margin-top: 50px;
+  }
 
-    .jumbotron h1 {
-        position: relative;
-        bottom: 55px;
-    }
+  .jumbotron h1 {
+    position: relative;
+    bottom: 55px;
+  }
 
-    .jumbotron p {
-        position: relative;
-        bottom: 55px;
-    }
+  .jumbotron p {
+    position: relative;
+    bottom: 55px;
+  }
 }
 
 @media screen and (min-width:768px) {
-    .navLink:before {
-        display: block;
-        content: "";
-        height: 70px;
-        margin: -70px 0 0;
-    }
+  .navLink:before {
+    display: block;
+    content: "";
+    height: 70px;
+    margin: -70px 0 0;
+  }
 
-    .jumbotron {
-        margin-top: 50px;
-    }
+  .jumbotron {
+    margin-top: 50px;
+  }
 
-    .jumbotron h1 {
-        position: relative;
-        bottom: 55px;
-    }
+  .jumbotron h1 {
+    position: relative;
+    bottom: 55px;
+  }
 
-    .jumbotron p {
-        position: relative;
-        bottom: 55px;
-    }
+  .jumbotron p {
+    position: relative;
+    bottom: 55px;
+  }
 }
 
 @media screen and (min-width:992px) {
-    .jumbotron h1 {
-        position: relative;
-        bottom: 35px;
-    }
+  .jumbotron h1 {
+    position: relative;
+    bottom: 35px;
+  }
 
-    .jumbotron p {
-        position: relative;
-        bottom: 35px;
-    }
+  .jumbotron p {
+    position: relative;
+    bottom: 35px;
+  }
 }
